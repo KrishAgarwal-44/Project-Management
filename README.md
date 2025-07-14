@@ -61,11 +61,26 @@ Task manager/
 ## ⚙️ Installation & Setup
 
 Clone repo, install dependencies, create `.env` from `.env.example`, and start server:
-
 ```bash
 git clone https://github.com/KrishAgarwal-44/Task-Manager.git
 cd Task-Manager
+```
+
+Install dependencies:
+```bash
 npm install
+```
+
+Create your .env file based on .env.example:
+env
+```
+MONGO_URI=your_mongodb_connection
+JWT_SECRET=your_jwt_secret
+ADMIN_INVITE_TOKEN=your_admin_invite_token
+PORT=8000
+```
+Run the app:
+```bash
 npm start
 ```
 
@@ -93,10 +108,6 @@ npm start
 * Services folder for API calls
 * Contexts for global state
 
-## 📄 License
-
-MIT
-
 ## 🤝 Contributing
 
 Pull requests welcome. For major changes, open an issue.
@@ -104,3 +115,7 @@ Pull requests welcome. For major changes, open an issue.
 ## ✨ Author
 
 Krish Agarwal – [GitHub](https://github.com/KrishAgarwal-44)
+
+
+## 📚 Credits
+This project was built while following a YouTube tutorial for educational purposes, giving credit to the original creator.
