@@ -1,4 +1,4 @@
-# 📝 Task Manager
+# 📝 Project Management
 
 A full-stack Node.js + Express + MongoDB project with a clean frontend (React) and modular backend. Includes authentication, role-based access, dashboards, task management, and Excel report export.
 
